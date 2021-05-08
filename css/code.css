@@ -1,0 +1,122 @@
+body{
+  font-family: 'Trebuchet MS', sans-serif;
+  background-image:url(../images/background2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+  #top1, .infos {
+    width: 20%;
+  }
+}
+
+#top1 {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.social {
+  float: left;
+}
+
+.social a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.box{
+    border: 1px solid none;
+    width: 100%;
+    
+}
+
+.infos{
+    border-bottom-width: 900px;
+    border-bottom: 1px solid darkgray;
+    padding:14px; 
+    float: right;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 10px
+}
+
+.infos ul li{
+    float: left;
+    text-align: center;
+    width: 100px;
+    list-style-type: none;
+}
+
+
+.infos ul li a{
+    text-decoration: none; 
+    color:white;
+
+}
+
+.infos ul li a:hover{
+    border-bottom: 4px solid brown;
+    padding: 2px;
+}
+
+h2{
+   float: left;
+}
+
+.head{
+    width: 650px;
+    float: right;
+}
+
+.head h2{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px;
+    padding-top: 50px;
+    line-height: 50px;
+}
+
+.head h4{
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 600px;
+    position: absolute;
+    color:white;
+    top:35%;
+}
+
+.head form input[type="submit"]{
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    border: none;
+    color:white;
+    background-color: crimson;
+    text-transform: uppercase;
+    padding: 10px;
+    
+    
+}
+
+.head form input[type="submit"]:hover{
+    background: green;
+    
+}
